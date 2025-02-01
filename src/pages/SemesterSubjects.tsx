@@ -5,18 +5,46 @@ import { BookOpen, FileText, Download, Clock, Users } from 'lucide-react';
 // Subject data for each semester
 const semesterSubjects = {
   1: [
-    { code: "CSC109", name: "Introduction to Information Technology", credits: 3 },
+    { code: "CSC109", name: "Computer System Concepts", credits: 3 },
     { code: "CSC110", name: "C Programming", credits: 3 },
     { code: "MTH112", name: "Mathematics I", credits: 3 },
-    { code: "PHY111", name: "Physics", credits: 3 },
-    { code: "ENG111", name: "English I", credits: 3 }
+    { code: "PHY111", name: "Technical English", credits: 3 },
+    { code: "ENG111", name: "Digital Logic", credits: 3 }
   ],
   2: [
-    { code: "CSC160", name: "Discrete Mathematics", credits: 3 },
+    { code: "CSC160", name: "Mathematics-II", credits: 3 },
     { code: "CSC161", name: "Object-Oriented Programming", credits: 3 },
-    { code: "MTH162", name: "Mathematics II", credits: 3 },
-    { code: "STA163", name: "Statistics I", credits: 3 },
-    { code: "ENG162", name: "English II", credits: 3 }
+    { code: "MTH162", name: "Modern Business Practices", credits: 3 },
+    { code: "STA163", name: "Microprocessor and Assembly Language", credits: 3 },
+    { code: "ENG162", name: "Sociology", credits: 3 }
+  ],
+  3: [
+    { code: "CSC160", name: "Financial Accounting", credits: 3 },
+    { code: "CSC161", name: "Computer Architecture", credits: 3 },
+    { code: "MTH162", name: "Data Structure and Algorithm", credits: 3 },
+    { code: "STA163", name: "System Analysis and Design", credits: 3 },
+    { code: "ENG162", name: "User Interface Design", credits: 3 }
+  ],
+  4: [
+    { code: "CSC160", name: "Technology and Operations Management", credits: 3 },
+    { code: "CSC161", name: "Numerical Methods", credits: 3 },
+    { code: "MTH162", name: "Operating System", credits: 3 },
+    { code: "STA163", name: "Computer Network", credits: 3 },
+    { code: "ENG162", name: "Database Management System", credits: 3 }
+  ],
+  5: [
+    { code: "CSC160", name: "Probability and Statistics", credits: 3 },
+    { code: "CSC161", name: "Management Information System", credits: 3 },
+    { code: "MTH162", name: "Object Oriented Analysis and Design", credits: 3 },
+    { code: "STA163", name: "Web Technology", credits: 3 },
+    { code: "ENG162", name: "Computer Graphics", credits: 3 }
+  ],
+  6: [
+    { code: "CSC160", name: "Research Methodology", credits: 3 },
+    { code: "CSC161", name: "Software Engineering", credits: 3 },
+    { code: "MTH162", name: "Cyber Security", credits: 3 },
+    { code: "STA163", name: "Advance Object Oriented Programming", credits: 3 },
+    { code: "ENG162", name: "Artificial Intelligence", credits: 3 }
   ],
   // Add data for other semesters...
 };
